@@ -5,14 +5,9 @@ body {
 .container {
     border: 6px solid black;
     display: flex;
-    flex-direction: row-reverse; /*Reverses the order of items 9 - 8 -7... L-R*/ 
-    /* flex-direction: row;  - Default, no difference */
-    /* flex-direction: column  - Main axis flows from top to bottom
-    1
-    2
-    3... */
-      /* flex-direction: column-reverse; - Default, no difference */
-    /* flex-direction: row | row-reverse | column | column-reverse  */
+    /*flex-wrap: nowrap;/* nowrap - no effect */
+    /*flex-wrap: wrap; /*starts a new line if you decrease the screen*/
+    flex-wrap: wrap-reverse; /*wraps on top */
 }
 .flex-item {
     color: white;
