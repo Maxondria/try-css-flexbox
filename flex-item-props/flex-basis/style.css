@@ -1,0 +1,44 @@
+/*basis - determines the initial size of an item in an a container before the remaining space is distributed accordingly*/
+/*Basically replaces the usual -width property, by default it is auto -based on the items passed*/
+body {
+  margin: 0;
+}
+.container {
+  border: 6px solid black;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.item-1 {
+  flex-basis: 100%; /*takes full width of container, if wrap is defined else, it will take the biggest size*/
+  background-color: #b4bf35;
+}
+.item-2 {
+  background-color: #b95f21;
+}
+.item-3 {
+  background-color: #1c4c56;
+}
+.item-4 {
+  background-color: #cfb276;
+}
+.item-5 {
+  background-color: #6b0803;
+}
+.item-6 {
+  background-color: #1c4c56;
+}
+.item-7 {
+  background-color: #b95f21;
+}
+.item-8 {
+  background-color: #01243a;
+}
+.item-9 {
+  background-color: #aad041;
+}
