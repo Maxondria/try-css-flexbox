@@ -1,0 +1,45 @@
+/*shrink - by default it is 1, but it tells items to fill up remaining space to fit in the container*/
+/*Reducing screen forces items to shrink and fill the space until they can't anymore*/
+body {
+  margin: 0;
+}
+.container {
+  border: 6px solid black;
+  display: flex;
+}
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  /*flex-shrink: 0; /*Means Not shrinking at all , items will become invisible as screen size reduces*/
+  /*flex-shrink: 4; /*Decreases Items,Instead increases amoount of space -white space*/
+}
+.item-1 {
+  background-color: #b4bf35;
+}
+.item-2 {
+  background-color: #b95f21;
+}
+.item-3 {
+  background-color: #1c4c56;
+}
+.item-4 {
+  background-color: #cfb276;
+  flex-shrink: 4; /*Reduces smaller than other items on decreasing the scren*/
+}
+.item-5 {
+  background-color: #6b0803;
+}
+.item-6 {
+  background-color: #1c4c56;
+}
+.item-7 {
+  background-color: #b95f21;
+}
+.item-8 {
+  background-color: #01243a;
+}
+.item-9 {
+  background-color: #aad041;
+}
