@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+}
+.container {
+    border: 6px solid black;
+    display: flex; 
+    /*Must have a height and enable wrapping*/
+    height: 800px;
+    flex-wrap: wrap;
+    /*align-content: stretch; /*No effect*/
+    /*align-content: flex-start; /*stops strecth to fill height but rather stick items to stick at cross axis start*/
+     /*align-content: flex-end; /*stops strecth to fill height but rather stick items to stick at cross axis end*/
+    /*align-content: center; /*stops strecth to fill height but rather stick items to stick at cross axis center*/
+    /*align-content: space-between; /*Places items at (end and start) of cross axis when wrapped leaving the space between*/ 
+    align-content: space-around; /*Proportionately leaves space around the items on cross axis when wrapped*/
+}
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1 {
+    background-color: #B4BF35;
+}
+.item-2 {
+    background-color: #B95F21;
+}
+.item-3 {
+    background-color: #1C4C56;
+}
+.item-4 {
+    background-color: #CfB276;
+}
+.item-5 {
+    background-color: #6B0803;
+}
+.item-6 {
+    background-color: #1C4C56;
+}
+.item-7 {
+    background-color: #B95F21;
+}
+.item-8 {
+    background-color: #01243A;
+}
+.item-9 {
+    background-color: #AAD041;
+}
