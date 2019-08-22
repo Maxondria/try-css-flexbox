@@ -1,0 +1,45 @@
+/*grow - by default it is 0, but it tells items to grow and fill up remaining space*/
+/*Basically, decides how much space an item should be assigned*/
+body {
+    margin: 0;
+}
+.container {
+    border: 6px solid black;
+    display: flex; 
+}
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    flex-grow: 1; /*All flex items will bring use the space left in the container*/
+}
+.item-1 {
+    background-color: #B4BF35;
+}
+.item-2 {
+    background-color: #B95F21;
+}
+.item-3 {
+    background-color: #1C4C56;
+}
+.item-4 {
+    background-color: #CfB276;
+}
+.item-5 {
+    background-color: #6B0803;
+    /*flex-grow: 1; /*Takes its space and the white space*/
+}
+.item-6 {
+    background-color: #1C4C56;
+    /*flex-grow: 3; /*shares the white space 5*/
+}
+.item-7 {
+    background-color: #B95F21;
+}
+.item-8 {
+    background-color: #01243A;
+}
+.item-9 {
+    background-color: #AAD041;
+}
